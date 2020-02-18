@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* ==================================== header_starting ======================= */
+.header_top{
+    padding: 17px 18px;
+    background: white;
+}
+.header_top .nav-link{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #191919;
+    text-transform: uppercase;
+}
+.header_top .nav-link:hover{
+    color: #007d2f !important;
+}
+ .header_top .active{
+    color: blue !important;
+    font-weight: 700;
+}
+/* ======================= main_starting ================= */
+main{
+
+}
+main .rasm{
+    background: #f6f6f6;
+    
+}
+main .col-lg-6 {
+    /* padding: 0px; */
+}
+main .col-lg-6 h1{
+    margin: 0;
+    font-size: 38px;
+    font-weight: 500;
+    color: #171717;
+    margin-bottom: 25px;
+}
+main .col-lg-6 p:first-of-type{
+    margin: 0;
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+main .col-lg-6 p:nth-of-type(2){
+    margin: 0;
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+main .col-lg-6 ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+    
+}
+main .col-lg-6 ul li{
+    margin-bottom: 13px;
+}
+main .col-lg-6 ul li a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+} 
+main .light{
+    /* padding: 105px 0 105px; */
+    /* padding-left: 129px; */
+    /* padding-right: 117px; */
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+
+main .carousel .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color: white;
+    margin-top: 50px;
+}
+main .carousel .carousel-indicators li.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+main .carousel .carousel-control-prev .fa{
+    width: 50px;
+    height: 50px;
+    
+    color: white;
+    transform: translateY(355px);
+    
+}
+main .carousel .carousel-control-next .fa{
+    width: 50px;
+    height: 50px;
+    color: white;   
+    transform: translateY(355px);
+}
+/* ======================= main_bot_starting ========= */
+.main_bot{
+    background: #007d2f;
+    min-height: 100px;
+}
+/* ============================= footer_starting ========================== */
+footer{
+    background: #141414;
+    padding: 108px 0 91px;
+}
+
+footer a{
+    text-decoration: none !important;
+}
+footer .col-lg-5 h4{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+footer .col-lg-5 p{
+    font-size: 14.7px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+footer .col-lg-7 .col-lg-4 a{
+    font-size: 14.7px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+footer .col-lg-3 ul li a{
+    font-size: 14.7px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+/* ================== media ====================== */
+@media(max-width:991px){
+    .auto{
+        margin: auto;
+        text-align: center;
+    }   
+    footer .col-lg-7 .row{
+        margin: 0;
+    }
+    footer .row{
+        margin: 0; 
+    }
+    .marr_bot{
+        margin-bottom: 20px !important; 
+    }
+    .number_bot{
+        margin-top: 40px  !important; 
+        margin-bottom: 30px  !important; 
+    }
+    .center{
+        margin: 30px auto 0;
+    }
+    .main_center{
+        text-align: center;
+        margin: auto;
+    }
+    .main_pad{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .chevron{
+        transform: translateY(590px) !important;
+    }
+}
+@media(max-width:767px){
+
+}
+@media(max-width:575px){
+    .footer_a{
+        font-size: 12px !important;
+    }
+    .footer_h{
+        font-size: 15px !important;
+    }
+    .footer_ul{
+        font-size: 12px !important;
+        margin-right: 5px;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .light_h{
+        font-size: 32px !important;
+    }
+    .light_p{
+        font-size: 14px !important;
+    }
+    .light_a{
+        font-size: 13px !important;
+    }
+    .chevron{
+        transform: translateY(600px) !important;
+    }
+
+}
+@media(max-width:320px){
+    .chevron{
+        transform: translateY(630px) !important;
+    }
+}

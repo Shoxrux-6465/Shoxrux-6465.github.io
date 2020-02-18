@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ================ header_starting =================== */
+header .header_top {
+    padding: 17px 18px;
+    background: white;
+}
+
+header .header_top .nav-link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #191919;
+    text-transform: uppercase;
+}
+
+header .header_top .nav-link:hover {
+    color: #007d2f !important;
+}
+
+header .header_foot {
+    padding: 116px 0px 112px;
+    background: #323232;
+}
+
+header .header_foot .col-lg-8 {
+    text-align: center;
+}
+
+header .header_foot .col-lg-8 h1 {
+    font-size: 62px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+header .header_foot p {
+    font-size: 22.5px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+header .header_top .active{
+    color: blue !important;
+    font-weight: 700;
+    
+    
+}
+/* ============== main_starting ========== */
+main {
+    background: #007d2f;
+    padding: 62px 101px;
+}
+
+main h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 9px;
+}
+
+main a {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+.col-lg-2 {
+    text-align: center;
+}
+
+main .col-lg-2 .man {
+    transition: 500ms;
+
+
+}
+
+main .col-lg-2 .man:hover {
+
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+    cursor: pointer;
+}
+
+/* ===================== section_about ========= */
+.about .col-lg-6 .person {
+    width: 100%;
+    height: auto;
+}
+
+.about .col-lg-6 {}
+
+.about .about_me {
+    background: #f5f5f5;
+    /* padding: 139px 128px 140px 110px; */
+    padding-top: 139px;
+    /* padding-bottom: 140px; */
+    /* padding-left: 95px; */
+}
+
+.about .about_me h3 {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.about .about_me p:first-of-type {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #787878;
+    margin-bottom: 34px;
+    line-height: 24px;
+}
+
+.about .about_me p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #787878;
+    margin-bottom: 37px;
+    line-height: 24px;
+}
+
+.about .rasm {
+    width: 222px;
+}
+
+/* ===================== section_project ============ */
+.project {
+    padding: 103px 0 100px;
+    background: white;
+}
+
+.project .col-lg-6 {
+    text-align: center;
+}
+
+.project .col-lg-6 h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #080808;
+    margin-bottom: 35px;
+}
+
+.project .col-lg-6 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    margin-bottom: 38px;
+}
+
+.project .col-lg-6 .but {
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background: #007d2f;
+    padding: 22px 43px 22px;
+    text-transform: uppercase;
+}
+
+/* =============== footer_strting =========== */
+footer {
+    background: #141414;
+    padding: 108px 0 91px;
+}
+
+footer a {
+    text-decoration: none !important;
+}
+
+footer .col-lg-5 h4 {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+footer .col-lg-5 p {
+    font-size: 14.7px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+footer .col-lg-7 .col-lg-4 a {
+    font-size: 14.7px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+footer .col-lg-3 ul li a {
+    font-size: 14.7px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+/* ======= row_null ====== */
+
+/* ========== media ========= */
+@media(max-width: 991px) {
+    .auto {
+        margin: auto;
+        text-align: center;
+    }
+
+    footer .col-lg-7 .row {
+        margin: 0;
+    }
+
+    .project .row {
+        margin: 0;
+    }
+
+    main .row {
+        margin: 0;
+    }
+
+    header .header_top .row {
+        margin: 0;
+    }
+
+    header .header_foot .row {
+        margin: 0;
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    .about_center {
+        text-align: center;
+        padding-bottom: 140px !important;
+
+    }
+
+}
+
+@media(max-width:575px) {
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_size {
+        font-size: 14px !important;
+    }
+
+    .main_a {
+        font-size: 10px !important;
+    }
+
+    .projec_size {
+        font-size: 25px !important;
+    }
+
+    .projec_p {
+        font-size: 12px !important;
+    }
+
+    .projet_but {
+        font-size: 8px !important;
+    }
+
+    .footer_a {
+        font-size: 12px !important;
+    }
+
+    .footer_h {
+        font-size: 15px !important;
+    }
+
+    .footer_ul {
+        font-size: 12px !important;
+        margin-right: 5px;
+    }
+
+    .size {
+        font-size: 25px !important;
+
+    }
+
+    .header_p {
+        font-size: 5px !important;
+    }
+
+    footer .col-lg-7 .row {
+        margin: 0;
+    }
+
+    .project .row {
+        margin: 0;
+    }
+
+    main .row {
+        margin: 0;
+    }
+
+    header .header_top .row {
+        margin: 0;
+    }
+
+    header .header_foot .row {
+        margin: 0;
+    }
+
+    footer .row {
+        margin: 0;
+    }
+
+    .about_p {
+        font-size: 13px !important;
+    }
+
+    .about_h {
+        font-size: 27px !important;
+    }
+
+    .about_top {
+        padding-top: 100px !important;
+        /* padding-bottom: 50px !important; */
+    }
+
+    .rasm_wt {
+        width: 100px !important;
+    }
+
+}
+
+@media(max-width:991px) {
+    .center {
+        margin: 30px auto 0;
+    }
+
+    .main_top {
+        margin-top: 30px;
+    }
+
+    .size {
+        font-size: 50px !important;
+    }
+
+    .header_p {
+        font-size: 18px !important;
+    }
+
+    .marr_bot {
+        margin-bottom: 20px !important;
+    }
+
+    .number_bot {
+        margin-top: 40px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .size {
+        font-size: 38px !important;
+    }
+
+    .header_p {
+        font-size: 15px !important;
+    }
+
+    .rasm_wt {
+        width: 180px !important;
+    }
+
+
+
+}
